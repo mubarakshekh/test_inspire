@@ -1,0 +1,27 @@
+.navbar.bg-transparent {
+    background-color: #190041 !important;
+}.icon-bar{
+  width: 35px;
+  height: 5px;
+  background-color: #000;
+  margin: 6px 0;
+  display:block;
+}
+.pad{
+  padding: 20px !important;
+}
+
+@media(max-width: 991px) {
+  .navbar.bg-transparent {
+      background-color: #a39ea5 !important;
+  }
+.nav-link.text-white{
+    color: #000 !important;
+    font-weight: bold;
+  }
+  .navbar-brand.text-white{
+    color: #000 !important;
+    font-weight: bold;
+  }
+
+}

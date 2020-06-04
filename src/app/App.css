@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  background-image:linear-gradient(rgb(8, 0, 55), rgb(79, 0, 96));
+  min-height: 100vh;
+  color: #fff
+}
+.small_screen{
+  display: none;
+
+}
+.m-fifty{
+  padding-top: 50px;
+}
+
+
+@media(max-width: 299px) {
+  .small_screen{
+    display: block;
+  
+  }
+  .App{
+    display:none
+  }
+}
+
+
+
+
+
+
+

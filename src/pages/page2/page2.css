@@ -1,0 +1,30 @@
+.m-50{
+  padding-top: 50px;
+}
+
+.position{
+  text-align: left;
+  margin-bottom: 20px;
+}
+.margin{
+  position: absolute;
+  top: 30%
+  
+}
+
+.font-size{
+  font-size: 30px;
+}
+
+
+
+@media(max-width: 576px) {
+  .position{
+    text-align: center;
+  }
+  .margin{
+    position: relative;
+    top: 0
+    
+  }
+}

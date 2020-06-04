@@ -1,0 +1,14 @@
+.form-group{
+text-align: left !important;
+}
+.form-width-control{
+  width: 50%;
+}
+
+
+@media(max-width: 768px) {
+  .form-width-control{
+    width: 100%;
+  }
+
+}
